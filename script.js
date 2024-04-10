@@ -24,7 +24,7 @@ function cifraDeCesar(texto, chaves, cifrar) {
     for (let i = 0; i < texto.length; i++) {
       let char = texto[i];
   
-      if (char.match(/[a-zA-Z]/)) {
+      if (char.match(/[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/)) {
         // Cifra ou descriptografa o caractere atual usando a chave correspondente
         resultado += cifrarCaractere(char, chavesArray[chaveIndex], cifrar);
         
