@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cifra de César</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Cifra de César</h1>
+    
+    <label for="textoOriginal">Texto Original:</label>
+    <textarea id="textoOriginal" rows="4"></textarea>
+    
+    <label for="chaves">Chaves (separadas por vírgula):</label>
+    <input type="text" id="chaves" name="chaves" value="3,5,7">
+
+    <button onclick="criptografar()">Criptografar</button>
+    <!--<button onclick="descriptografar()">Descriptografar</button> -->
+
+    <label for="textoCifrado">Texto Criptografado/Descriptografado:</label>
+    <textarea id="textoCifrado" rows="4" readonly></textarea>
+
+  </div>
+    
+  <script src="script.js"></script>
+  <footer> 
+    <div class="footer">
+      <h3>Equipe 1</h3>
+      <strong>Antonio Madeiro, José Glênio, João Paulo, Polyana, Victor e Williane!</strong>
+      <br>
+      TSI - 3 Período
+      Segurança e Sistema Para Internet
+    </div>
+  </footer>
+
+</body>
+
+</html>
