@@ -19,11 +19,4 @@ O texto original e o texto cifrado serão exibidos logo abaixo.
 ## Tecnologias Utilizadas
 
 Este projeto é construído em JavaScript, HTML e CSS. 
-- Não são necessárias bibliotecas externas.
-
-## Colaboradores:
-
-- <a href="https://github.com/joaopaulops"> João Paulo </a>
-- <a href="https://github.com/Polyalves2"> Polyana Giselle </a>
-- <a href="https://github.com/victor16042002"> Victor Antônio </a>
-- <a href="https://github.com/willyfelix"> Williane Felix </a>   
+- Não são necessárias bibliotecas externas. 
